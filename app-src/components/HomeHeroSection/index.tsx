@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from '../../ui'
-import Image from 'next/image'
+import image from '../../../public/assets/images/home-hero.jpg'
 import './HomeHeroSection.css'
 
 const HomeHeroSection = () => {
@@ -31,9 +31,7 @@ const HomeHeroSection = () => {
 						</div>
 					</div>
 				</div>
-				<div>
-					<img className="home-hero-image" src={require('../../../public/assets/images/home-hero.jpg')} alt="Home Hero" />
-				</div>
+				<img className="home-hero-image" src={image} alt="Home Hero" />
 			</Container>
 		</section>
 	)
