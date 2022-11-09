@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container } from '../../ui'
+import Image from 'next/image'
 import image from '../../../public/assets/images/home-hero.jpg'
 import './HomeHeroSection.css'
 
@@ -31,7 +32,9 @@ const HomeHeroSection = () => {
 						</div>
 					</div>
 				</div>
-				<img className="home-hero-image" src={`${image}`} alt="Home Hero" />
+				<div className="home-hero-image">
+					<Image src={image} unoptimized fill alt="Home Hero" />
+				</div>
 			</Container>
 		</section>
 	)
