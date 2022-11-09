@@ -1,0 +1,52 @@
+.portfolio-post {
+	display: grid;
+	grid-template-columns: 1fr 223px;
+	gap: 94px;
+}
+
+.portfolio-post-main-image {
+	width: 100%;
+	height: auto;
+}
+
+.portofolio-post-author-card {
+	background-color: #fff;
+	width: 276px;
+	filter: drop-shadow(10px 10px 40px rgba(0, 0, 0, 0.05));
+	padding: 17px 20px;
+	gap: 20px;
+	display: flex;
+	align-items: center;
+	margin-left: -170px;
+	margin-top: 27px;
+	margin-bottom: 80px;
+}
+
+.portofolio-post-author-card img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.portfolio-post-author-name {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 1.4;
+	color: #000000;
+}
+
+.portolio-post-author-job {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	color: #9c9c9c;
+}
+
+.portfolio-post-text {
+	display: block;
+	margin-bottom: 40px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #9c9c9c;
+}

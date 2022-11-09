@@ -1,0 +1,15 @@
+.home-about{
+    margin-top: 160px;
+}
+
+.home-about-main-text{
+    margin-top: 32px;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 170%;
+    color: #333333;
+}
+
+.home-about .portfolio-post{
+    margin-top: 60px;
+}
