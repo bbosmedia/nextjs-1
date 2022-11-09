@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { Container, MainButton } from '../../ui'
-import logo from '../../assets/images/site-logo.svg'
+import logo from '../../../public/assets/images/site-logo.svg'
 import './Navbar.css'
 import { useEffect, useState } from 'react'
 

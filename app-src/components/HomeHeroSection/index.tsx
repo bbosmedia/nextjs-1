@@ -31,7 +31,9 @@ const HomeHeroSection = () => {
 						</div>
 					</div>
 				</div>
-				<img className="home-hero-image" src={require('../../assets/images/home-hero.jpg')} />
+				<div>
+					<img className="home-hero-image" src={require('../../../public/assets/images/home-hero.jpg')} alt="Home Hero" />
+				</div>
 			</Container>
 		</section>
 	)
