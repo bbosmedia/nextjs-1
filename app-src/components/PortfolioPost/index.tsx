@@ -15,10 +15,10 @@ interface IPortolioPost {
 const PortfolioPost: FC<IPortolioPost> = ({ author, mainImage, authorImage, job, id, postText }) => {
 	return (
 		<div className="portfolio-post" key={id}>
-			<Image className="portfolio-post-main-image" fill unoptimized src={mainImage} alt={author} />
+			<Image className="portfolio-post-main-image" loading="lazy" fill unoptimized src={mainImage} alt={author} />
 			<div className="portfolio-post-info">
 				<div className="portofolio-post-author-card">
-					<Image src={authorImage} fill unoptimized alt={author} />
+					<Image src={authorImage} loading="lazy" fill unoptimized alt={author} />
 					<div>
 						<h5 className="portfolio-post-author-name">{author}</h5>
 						<span className="portolio-post-author-job">{job}</span>
