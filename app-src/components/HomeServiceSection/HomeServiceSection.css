@@ -53,6 +53,6 @@
 	margin-top: -150px;
 	width: calc(100% - 124px) !important;
 	height: auto !important;
-	float: right;
+    margin-left: 124px;
 	z-index: -1;
 }

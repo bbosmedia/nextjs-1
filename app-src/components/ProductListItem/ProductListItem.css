@@ -1,0 +1,38 @@
+.product-list-item a {
+	padding: 20px 0;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	transition: 0.4s ease-in-out;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	color: #333;
+	gap: 20px;
+}
+
+.product-list-item a:hover {
+	border-top: 1px solid #333;
+	border-bottom: 1px solid #333;
+}
+
+.product-list-item .left {
+	display: flex;
+	gap: 80px;
+}
+
+.product-list-item .left h5 {
+	font-weight: 600;
+	font-size: 32px;
+	line-height: 1.4;
+}
+
+.product-list-item .left .text {
+	margin-top: 24px;
+	max-width: 469px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+.product-list-item .left + svg{
+    font-size: 24px;
+}
