@@ -1,0 +1,29 @@
+.newsletter-subscribe-controller {
+	display: flex;
+	border-bottom: 1px solid #333;
+}
+
+.newsletter-subscribe-controller input {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+    flex: 1;
+    padding: 15px 0;
+    border: none;
+    padding-right: 10px;
+    outline: none;
+}
+
+.newsletter-subscribe-controller button{
+    padding: 0;
+    border: none;
+    background: transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.newsletter-subscribe-controller img {
+	width: 23.5px !important;
+	height: auto !important;
+	position: relative !important;
+}
