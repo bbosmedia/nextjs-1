@@ -53,6 +53,44 @@
 	margin-top: -150px;
 	width: calc(100% - 124px) !important;
 	height: auto !important;
-    margin-left: 124px;
+	margin-left: 124px;
 	z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+	.home-service {
+		margin-top: 60px;
+	}
+	.home-service-img {
+		width: 100% !important;
+		margin-top: 20px;
+		margin-left: 0px;
+	}
+
+	.home-service-title {
+		font-size: 24px;
+		line-height: 1.4;
+	}
+
+	.home-service-info-box {
+		padding-right: 0px;
+		padding-bottom: 0px;
+	}
+
+	.home-service-body-text {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+
+	.home-service-services-list{
+		gap: 20px;
+	}
+
+	.home-service-services-list-link {
+		font-size: 18px;
+	}
+
+	.home-service-services-list-link .left {
+		gap: 10px;
+	}
 }

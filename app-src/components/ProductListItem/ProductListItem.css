@@ -33,6 +33,30 @@
 	line-height: 1.6;
 }
 
-.product-list-item .left + svg{
-    font-size: 24px;
+.product-list-item .left + svg {
+	font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+	.product-list-item .left {
+		gap: 20px;
+	}
+	.product-list-item .left .text {
+		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.product-list-item .left h5 {
+		font-size: 22px;
+	}
+	
+	.product-list-item .left .text {
+		font-size: 14px;
+		line-height: 1.2;
+	}
+
+	.product-list-item .left + svg {
+		font-size: 30px;
+	}
 }

@@ -48,3 +48,31 @@
 .blue-footer-inner .right .white-btn{
     margin-top: 20px;
 }
+
+@media screen and (max-width: 768px) {
+    .blue-footer-inner .right, .blue-footer-inner h4{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .blue-footer-inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .blue-footer-inner h4{
+        font-size: 24px;
+    }
+
+    .blue-footer-inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .blue-footer-inner .right p{
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}

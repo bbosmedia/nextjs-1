@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-head-element */
-import { Navbar } from '../app-src/components'
+import { BlueFooterSection, Footer, Navbar } from '../app-src/components'
 import './global.css'
-
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
 	return (
 		<html lang="en">
 			<head>
+				<meta name="viewport" content="width=device-width" />
 				<title>Abbos Nurgulshanov</title>
 				<link rel="preconnect" href="https://fonts.googleapis.com" />
 				<link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -15,6 +15,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }):
 			<body>
 				<Navbar />
 				{children}
+				<BlueFooterSection />
+				<Footer />
 			</body>
 		</html>
 	)

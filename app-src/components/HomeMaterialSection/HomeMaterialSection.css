@@ -57,3 +57,30 @@
 .home-madterial-inner .outline-btn {
 	margin-top: 23px;
 }
+
+@media screen and (max-width: 768px) {
+	.home-material {
+		margin-top: 60px;
+	}
+
+	.home-madterial-inner {
+		flex-direction: column;
+	}
+
+	.home-material-image {
+		margin-top: 50px;
+		width: 100% !important;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.home-material-info h4 {
+		font-size: 24px;
+		line-height: 1.4;
+	}
+
+	.home-madterial-inner p {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}

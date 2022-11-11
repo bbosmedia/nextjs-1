@@ -25,7 +25,7 @@ const PortfolioPost: FC<IPortolioPost> = ({ author, mainImage, authorImage, job,
 					</div>
 				</div>
 				<p className="portfolio-post-text">{postText}</p>
-				<MainButton href={`protfolio/${id}`}>Learn More</MainButton>
+				<MainButton href={"#"}>Learn More</MainButton>
 			</div>
 		</div>
 	)

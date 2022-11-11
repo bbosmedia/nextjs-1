@@ -14,3 +14,9 @@
 	height: 2px;
 	background: #000000;
 }
+
+@media screen and (max-width: 425px) {
+	.section-title{
+		width: 100%;
+	}
+}

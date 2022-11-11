@@ -40,3 +40,57 @@
 .nav-link.active {
 	font-weight: 600;
 }
+
+.toggle {
+	display: none;
+}
+
+@media screen and (max-width: 1200px) {
+	.toggle {
+		display: block;
+	}
+
+	.main-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		background: #fff;
+		padding: 20px;
+		height: 100%;
+		width: 100%;
+		transition: 0.4s ease-in-out;
+		opacity: 0;
+		transform: translateY(-120%);
+	}
+
+	.main-nav.active {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	.nav-list {
+		flex-direction: column;
+		margin-top: 40px;
+		gap: 40px;
+	}
+
+	.nav-link {
+		font-size: 20px;
+	}
+
+	.toggle {
+		border: none;
+		outline: none;
+		font-size: 20px;
+		color: #333333;
+		cursor: pointer;
+		padding: 0;
+		background: transparent;
+	}
+
+	.toggle-close {
+		position: fixed;
+		top: 20px;
+		right: 20px;
+	}
+}

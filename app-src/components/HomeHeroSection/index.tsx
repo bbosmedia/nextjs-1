@@ -32,9 +32,7 @@ const HomeHeroSection = () => {
 						</div>
 					</div>
 				</div>
-				<div className="home-hero-image">
-					<Image src={image} unoptimized fill alt="Home Hero" />
-				</div>
+				<Image className="home-hero-image" src={image} unoptimized fill alt="Home Hero" />
 			</Container>
 		</section>
 	)

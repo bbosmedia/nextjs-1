@@ -1,4 +1,4 @@
-import { BlueFooterSection, Footer, HomeAboutSection, HomeHeroSection, HomeMaterialSection, HomeProductSection, HomeServiceSection } from '../app-src/components'
+import { HomeAboutSection, HomeHeroSection, HomeMaterialSection, HomeProductSection, HomeServiceSection } from '../app-src/components'
 
 export default function HomePage() {
 	return (
@@ -8,8 +8,6 @@ export default function HomePage() {
 			<HomeServiceSection />
 			<HomeProductSection />
 			<HomeMaterialSection />
-			<BlueFooterSection />
-			<Footer />
 		</main>
 	)
 }
