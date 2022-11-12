@@ -1,0 +1,25 @@
+.team-header {
+	margin-top: 200px;
+}
+
+.team-header-inner {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.team-header-inner p {
+	max-width: 518px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 57px;
+}
+
+.team-header-inner img {
+	position: relative !important;
+	width: 100% !important;
+	height: auto !important;
+}

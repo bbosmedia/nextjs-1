@@ -49,12 +49,12 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" href="/" onClick={() => setMenu(false)}>
+								<Link className="nav-link" href="/team" onClick={() => setMenu(false)}>
 									Our Teams
 								</Link>
 							</li>
 							<li className="nav-item">
-								<MainButton href="/" onClick={() => setMenu(false)}>
+								<MainButton href="/contact" onClick={() => setMenu(false)}>
 									Contact Us
 								</MainButton>
 							</li>

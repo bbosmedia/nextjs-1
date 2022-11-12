@@ -1,0 +1,93 @@
+.team-designer {
+	margin-top: 100px;
+}
+
+.team-designer-card {
+	background: #2c3878;
+	height: 400px;
+	width: 100%;
+	position: relative;
+	padding: 12px;
+}
+
+.team-designer-inner {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 24px;
+}
+
+.team-designer-card img {
+	width: 100% !important;
+	height: 100% !important;
+	object-fit: contain;
+	object-position: bottom;
+}
+
+.team-designer-card .card-info {
+	padding: 18px 16px;
+	position: absolute;
+	bottom: 12px;
+	left: 12px;
+	right: 12px;
+	background-color: #fff;
+}
+
+.team-designer-card .card-info h5 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 140%;
+	color: #333;
+}
+
+.team-designer h3 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 170%;
+	color: #333333;
+	margin-top: 20px;
+	margin-bottom: 24px;
+}
+
+.team-designer .text {
+	max-width: 471px;
+	font-size: 18px;
+	line-height: 160%;
+	color: #9c9c9c;
+	display: block;
+	margin-bottom: 80px;
+}
+
+@media screen and (max-width: 1100px) {
+	.team-designer-inner {
+		grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+
+@media screen and (max-width: 900px) {
+	.team-designer-inner {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.team-designer-inner {
+		grid-template-columns: 1fr;
+	}
+}
+@media screen and (max-width: 425px) {
+	.team-designer{
+        margin-top: 60px;
+    }
+
+    .team-designer h3{
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+
+    .team-designer .text{
+        margin-bottom: 20px;
+        font-size: 16px;
+        line-height: 1.4;
+    }
+}
