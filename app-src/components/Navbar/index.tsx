@@ -39,7 +39,7 @@ const Navbar = () => {
 								</Link>
 							</li>
 							<li className="nav-item">
-								<Link className="nav-link" href="/" onClick={() => setMenu(false)}>
+								<Link className="nav-link" href="/about" onClick={() => setMenu(false)}>
 									About Us
 								</Link>
 							</li>

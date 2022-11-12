@@ -1,0 +1,92 @@
+.about-service {
+	margin-top: 100px;
+}
+
+.about-service h3 {
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 170%;
+	color: #333333;
+	margin-bottom: 25px;
+}
+
+.about-service-text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	color: #9c9c9c;
+	width: 100%;
+	max-width: 471px;
+	margin-bottom: 40px;
+}
+
+.about-service-boxes {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 18px;
+}
+
+.about-service-box {
+	padding: 22px 27px;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+	background: #fff;
+	box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+	text-align: center;
+}
+
+.about-service-box .circle {
+	background: #d9d9d9;
+	height: 63px;
+	width: 63px;
+	border-radius: 50%;
+}
+
+.about-service-box h5 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 140%;
+	color: #333333;
+}
+
+.about-service-box p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 160%;
+	color: #9c9c9c;
+}
+
+@media screen and (max-width: 768px) {
+	.about-service h3 {
+		font-size: 28px;
+		line-height: 1.3;
+	}
+
+	.about-service-boxes {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.about-service-boxes {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.about-service {
+		margin-top: 60px;
+	}
+
+	.about-service-box {
+		gap: 15px;
+        padding: 20px 18px;
+	}
+
+	.about-service-box p {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+}
