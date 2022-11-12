@@ -1,0 +1,61 @@
+.services-achievement {
+	margin-top: 100px;
+}
+
+.services-achievement-inner {
+	margin-top: 40px;
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+}
+
+.serivces-achievement-card {
+	display: grid;
+	grid-template-columns: 1fr 334px;
+	gap: 20px;
+	align-items: center;
+}
+
+.serivces-achievement-card img {
+	position: relative !important;
+	height: auto !important;
+	width: 100% !important;
+	max-width: 746px;
+}
+
+.serivces-achievement-card-info {
+	width: 100%;
+}
+
+.serivces-achievement-card-info h5 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.4;
+	color: #333333;
+	margin-bottom: 20px;
+}
+
+.serivces-achievement-card-info p {
+	font-size: 18px;
+	line-height: 160%;
+	color: #9c9c9c;
+}
+
+@media screen and (max-width: 768px) {
+	.serivces-achievement-card {
+		grid-template-columns: 1fr;
+	}
+}
+@media screen and (max-width: 425px) {
+	.services-achievement {
+		margin-top: 60px;
+	}
+	.serivces-achievement-card-info h5 {
+		font-size: 18px;
+		margin-bottom: 10px;
+	}
+	.serivces-achievement-card-info p {
+		font-size: 16px;
+		line-height: 1.4;
+	}
+}
