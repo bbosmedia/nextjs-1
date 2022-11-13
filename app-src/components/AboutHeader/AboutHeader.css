@@ -8,18 +8,6 @@
 	align-items: center;
 }
 
-.about-header span {
-	max-width: 582px;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 160%;
-	text-align: center;
-	color: #000000;
-	display: block;
-	margin: o auto;
-	margin-bottom: 86px;
-}
-
 .about-header img {
 	position: relative !important;
 	height: auto !important;
@@ -36,10 +24,4 @@
 	}
 }
 
-@media screen and (max-width: 768px) {
-	.about-header span {
-		font-size: 16px;
-		line-height: 1.4;
-        margin-bottom: 20px;
-	}
-}
+

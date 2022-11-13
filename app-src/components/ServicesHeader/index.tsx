@@ -10,7 +10,7 @@ const ServicesHeader = () => {
 			<Container>
 				<div className="services-header-inner">
 					<PageTitle>Services</PageTitle>
-					<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+					<p className='page-text'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
 					<Image src={image} fill unoptimized alt="Services" />
 				</div>
 			</Container>

@@ -11,10 +11,6 @@
 }
 
 .about-service-text {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 160%;
-	color: #9c9c9c;
 	width: 100%;
 	max-width: 471px;
 	margin-bottom: 40px;
@@ -51,12 +47,7 @@
 	color: #333333;
 }
 
-.about-service-box p {
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 160%;
-	color: #9c9c9c;
-}
+
 
 @media screen and (max-width: 768px) {
 	.about-service h3 {
