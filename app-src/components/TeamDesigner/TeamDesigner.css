@@ -1,6 +1,3 @@
-.team-designer {
-	margin-top: 100px;
-}
 
 .team-designer-card {
 	background: #2c3878;
@@ -76,9 +73,6 @@
 	}
 }
 @media screen and (max-width: 425px) {
-	.team-designer{
-        margin-top: 60px;
-    }
 
     .team-designer h3{
         margin-bottom: 10px;

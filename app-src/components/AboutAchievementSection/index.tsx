@@ -6,7 +6,7 @@ import image from '../../../public/assets/images/about-page-achievement.jpg'
 
 const AboutAchievmentSection = () => {
 	return (
-		<section className="about-achievement">
+		<section className="about-achievement page-section">
 			<div className="container">
 				<SectionTitle>Achievement</SectionTitle>
 				<h3>Interior customization with Danaanz, best quality with professional workers</h3>

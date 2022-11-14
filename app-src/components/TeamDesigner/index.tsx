@@ -13,7 +13,7 @@ import image8 from '../../../public/assets/images/team/8.png'
 
 const TeamDesigner = () => {
 	return (
-		<div className="team-designer">
+		<div className="team-designer page-section">
 			<Container>
 				<SectionTitle>Designer</SectionTitle>
 				<h3>Creative Person</h3>

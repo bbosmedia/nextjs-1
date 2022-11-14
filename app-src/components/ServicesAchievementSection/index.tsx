@@ -8,7 +8,7 @@ import image3 from '../../../public/assets/images/services-achievment/3.jpg'
 
 const SerivesAchievement = () => {
 	return (
-		<section className="services-achievement">
+		<section className="services-achievement page-section">
 			<Container>
 				<SectionTitle>Achievement</SectionTitle>
 				<div className="services-achievement-inner">

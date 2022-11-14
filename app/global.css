@@ -31,10 +31,18 @@ li {
 	display: block;
 }
 
+.page-section {
+	margin-top: 100px;
+}
+
 @media screen and (max-width: 425px) {
 	.page-text {
 		margin-bottom: 20px;
 		font-size: 16px;
 		line-height: 1.4;
+	}
+
+	.page-section {
+		margin-top: 60px;
 	}
 }

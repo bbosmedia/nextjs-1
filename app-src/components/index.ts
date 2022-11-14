@@ -17,3 +17,4 @@ export { default as ServicesAchievementSection } from './ServicesAchievementSect
 export { default as TeamHeader } from './TeamHeader'
 export { default as TeamDesigner } from './TeamDesigner'
 export { default as ContactHeader } from './ContactHeader'
+export { default as ContactLocation } from './ContactLocation'
